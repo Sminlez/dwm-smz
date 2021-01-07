@@ -88,7 +88,7 @@ static const char * ram(void){
         static char ram[MAXSTR];
         struct sysinfo s;
         sysinfo(&s);
-        snprintf(ram,sizeof(ram),"%.1fM,%.1fM",((double)(s.totalram-s.freeram))/1048576.,((double)s.totalram)/1048576.);
+        snprintf(ram,sizeof(ram),"%.1fM,%.1fM",((double)(s.totalram-s.freeram))/1048576./2,((double)s.totalram)/1048576./2);
         return ram;
 }
 
