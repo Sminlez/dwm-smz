@@ -46,3 +46,5 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+# Sminlez's notes
+To use dwm-bar with my config, copy dwm_bar.sh into dwm-bar
